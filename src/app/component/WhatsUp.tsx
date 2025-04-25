@@ -70,7 +70,7 @@ const LifeUpdate = () => {
                 mx-[7.5%] my-5
                 flex items-center justify-center'
       >
-        <div className="relative w-[400px] h-[300px]
+        <div className="relative w-[400px] h-[250px]
           md:w-[1000px] md:h-[700px]">
           <Image
             className='rounded-xl'
