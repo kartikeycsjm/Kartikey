@@ -23,7 +23,7 @@ const Header = () => {
                 className='text-white absolute'>
                 <h1
                     className="mb-3 
-                    text-6xl font-bold 
+                    text-3xl font-bold 
                     tracking-tighter sm:text-7xl 
                     lg:text-8xl text-center"
                 >

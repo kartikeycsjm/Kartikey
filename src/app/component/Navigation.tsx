@@ -12,9 +12,9 @@ const Navigation = () => {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className='font-light
+                className='font-light text-[12px]
             text-sm bg-[#00062588]
-            flex gap-6 md:gap-16 p-2 mt-2
+            flex gap-3 md:gap-16 p-2 mt-2
             rounded-[100px] md:text-xl w-[85%]
             md:w-[700px]
             items-center justify-between backdrop-blur-xs'>
@@ -29,12 +29,12 @@ const Navigation = () => {
                         width={70} height={70} alt='logo'>
                     </Image>
                 </Link>
-                <Link href={'https://kartikeymishra.vercel.app/insights'}
+                <Link href={'https://kartikeymishra1.vercel.app/insights'}
                     className='hover:text-green-400
-                duration-300'>
+                duration-300 '>
                     Insights
                 </Link>
-                <Link href={'https://kartikeymishra.vercel.app/projects'}
+                <Link href={'https://kartikeymishra1.vercel.app/projects'}
                     className='hover:text-green-400
                 duration-300'>
                     Projects
@@ -44,7 +44,7 @@ const Navigation = () => {
                     rounded-full
                   hover:text-green-400
                     duration-300'
-                    href={'https://kartikeymishra.vercel.app/contact'}>
+                    href={'https://kartikeymishra1.vercel.app/contact'}>
                     Get in touch
                 </Link>
             </motion.div>
