@@ -28,7 +28,6 @@ const About = () => {
                 >
                     About Me
                 </motion.h2>
-
                 <motion.p
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +41,6 @@ const About = () => {
                     explaining a tough concept, I enjoy making
                     things that help and inspire others.
                 </motion.p>
-
                 <motion.p
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +56,6 @@ const About = () => {
                     a mentor, and a lifelong learner.
                 </motion.p>
             </section>
-
             <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -81,5 +78,4 @@ const About = () => {
         </div>
     )
 }
-
-export default About
+export default About;

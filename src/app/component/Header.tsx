@@ -51,11 +51,10 @@ const Header = () => {
                 flex items-center justify-center'>
                     <Link href={'./#about'}
                         className='bg-[#14b8a6]
-                        hover:bg-[#0d9488]
-            block text-center border border-[rgb(99,126,224)]
-            text-white
-            text-[18px] w-[50%] p-2 md:w-[200px]
-            rounded-lg duration-300 shadow-2xl'>
+                      hover:bg-[#0d9488]
+                        block text-center text-white
+                        text-[18px] w-[50%] p-2 md:w-[200px]
+                        rounded-lg duration-300 shadow-2xl'>
                         About Me
                     </Link>
                 </div>

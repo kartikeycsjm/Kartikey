@@ -69,7 +69,7 @@ const page = () => {
           <button type='submit'
             className='bg-[#14b8a6]
                       hover:bg-[#0d9488]
-          block text-center border border-[rgb(99,126,224)]
+          block text-center
           text-white
           text-[18px] w-[100%] p-3 md:w-[400px]
           rounded-lg duration-300 shadow-2xl'>
