@@ -40,9 +40,10 @@ const Navigation = () => {
                     Projects
                 </Link>
                 <Link
-                    className='bg-blue-600 px-3 py-1 
+                    className='bg-[rgb(98,85,154)] px-3 py-1 
                     rounded-full
                   hover:text-green-400
+                  hover:bg-[rgb(78,65,134)]
                     duration-300'
                     href={'https://kartikeymishra1.vercel.app/contact'}>
                     Get in touch

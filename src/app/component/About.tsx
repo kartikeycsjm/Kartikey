@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const About = () => {
 
     return (
-        <div className='w-full m-auto mt-5 min-h-[85vh] 
+        <div id='about' className='w-full m-auto mt-5 min-h-[85vh] 
             flex flex-col md:flex-row 
             md:justify-center md:items-center
             md:min-h-[70vh]
@@ -40,7 +40,7 @@ const About = () => {
                 <motion.p
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1}}
+                    transition={{ duration: 1 }}
                     viewport={{ once: false }}
                     className="text-base leading-relaxed mt-2
                     md:text-xl text-justify">
