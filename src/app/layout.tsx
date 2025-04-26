@@ -20,8 +20,8 @@ export default function RootLayout({
       <body
         className={inter.className}
       >
-
-        <div className="bg-[#000600] text-white w-full">
+        <div className="bg-[#1f262d] 
+        text-white w-full">
           <Navigation />
           {children}
           <Footer />

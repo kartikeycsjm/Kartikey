@@ -13,7 +13,7 @@ const Navigation = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
                 className='font-light text-[12px]
-            text-sm bg-[#00062588]
+            text-sm bg-[#2a3439]
             flex gap-3 md:gap-16 p-2 mt-2
             rounded-[100px] md:text-xl w-[85%]
             md:w-[700px]

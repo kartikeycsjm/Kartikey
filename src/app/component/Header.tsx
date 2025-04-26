@@ -2,11 +2,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from "framer-motion"
+// import AnimatedHeader from './Animated'
 const Header = () => {
     return (
         <div className="w-full h-screen relative
         flex items-center 
-        justify-center bg-[rgb(2,5,48)] rounded-b-[50px]
+        justify-center bg-[#1a2238] rounded-b-[50px]
         ">
             {
             /* <video
@@ -18,6 +19,7 @@ const Header = () => {
                 className="w-full h-full object-cover
                 absolute top-0 left-0 z-0"
             /> */}
+            {/* <AnimatedHeader/> */}
             <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +28,7 @@ const Header = () => {
                 className='text-white absolute'>
                 <h1
                     className="mb-3 
-                    text-3xl font-bold 
+                    text-4xl font-bold 
                     tracking-tighter sm:text-7xl 
                     lg:text-8xl text-center"
                 >
