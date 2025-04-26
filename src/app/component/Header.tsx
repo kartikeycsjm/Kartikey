@@ -5,9 +5,11 @@ import { motion } from "framer-motion"
 // import AnimatedHeader from './Animated'
 const Header = () => {
     return (
-        <div className="w-full h-screen relative
+        <div className="w-full h-screen 
+        relative
         flex items-center 
-        justify-center bg-[#1a2238] rounded-b-[50px]
+        justify-center bg-[#1a2238] 
+        rounded-b-[50px]
         ">
             {
             /* <video
@@ -36,8 +38,9 @@ const Header = () => {
                 </h1>
                 <p
                     className="max-w-[600px] 
-                    text-lg text-[rgb(100,86,156)] 
-                    sm:text-xl text-center"
+                    text-lg text-[white] 
+                    md:text-xl text-center font-extralight
+                    px-3"
                 >
                     Engineer by degree,
                     creator by nature,
@@ -47,11 +50,12 @@ const Header = () => {
                 <div className='w-full mt-5
                 flex items-center justify-center'>
                     <Link href={'./#about'}
-                        className='text-center 
-                        px-7 py-2 rounded-md
-                        bg-[rgb(98,85,154)]
-                        hover:bg-[rgb(78,65,134)]
-                        duration-300'>
+                        className='bg-[#14b8a6]
+                        hover:bg-[#0d9488]
+            block text-center border border-[rgb(99,126,224)]
+            text-white
+            text-[18px] w-[50%] p-2 md:w-[200px]
+            rounded-lg duration-300 shadow-2xl'>
                         About Me
                     </Link>
                 </div>

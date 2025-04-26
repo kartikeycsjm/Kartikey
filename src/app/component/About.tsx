@@ -20,7 +20,7 @@ const About = () => {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                     viewport={{ once: false }}
-                    className="text-3xl font-bold mb-4">
+                    className="text-2xl md:text-3xl font-bold mb-4">
                     About Me
                 </motion.h2>
 
@@ -30,7 +30,7 @@ const About = () => {
                     transition={{ duration: 1 }}
                     viewport={{ once: false }}
                     className="text-base leading-relaxed 
-                    md:text-xl text-justify">
+                    md:text-xl text-justify font-extralight">
                     Hey! I’m Kartikey — I bring ideas to life on
                     the web and love sharing what I learn along
                     the way. Whether it’s crafting an app or
@@ -43,7 +43,7 @@ const About = () => {
                     transition={{ duration: 1 }}
                     viewport={{ once: false }}
                     className="text-base leading-relaxed mt-2
-                    md:text-xl text-justify">
+                    md:text-xl text-justify font-extralight">
                     Outside the screen, you’ll find me on a
                     cricket field, vibing to music, or deep in
                     conversation about random ideas. I care about
@@ -64,7 +64,7 @@ const About = () => {
                 <div className="relative w-[300px] h-[300px]
                 md:w-[400px] md:h-[400px]"> {/* Set your desired size */}
                     <Image
-                        className='rounded-xl'
+                        className='rounded-sm'
                         src='/dp.jpg'
                         alt='dp'
                         layout='fill'

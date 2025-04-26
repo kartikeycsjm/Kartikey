@@ -22,7 +22,8 @@ const LifeUpdate = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: false }}
-          className="text-3xl font-bold mb-4">
+          className="text-2xl font-bold mb-4
+          md:text-3xl">
           What's Going on in My Life
         </motion.h2>
 
@@ -32,7 +33,7 @@ const LifeUpdate = () => {
           transition={{ duration: 1 }}
           viewport={{ once: false }}
           className="text-base leading-relaxed 
-                    md:text-xl text-justify">
+                    md:text-xl font-extralight text-justify">
           Lately, I've been diving deep into machine learning, especially working with TensorFlow.js
           for building web apps that help detect plant diseases. It's been a challenging yet
           rewarding experience, as I apply my web development skills to something more data-driven.
@@ -42,7 +43,7 @@ const LifeUpdate = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: false }}
-          className="text-base leading-relaxed mt-2
+          className="text-base font-extralight leading-relaxed mt-2
                     md:text-xl text-justify">
           On a personal note, I’m also focusing on a major project for my college, which involves
           building a web app that helps with environmental conservation. It’s not just about coding,
@@ -54,7 +55,7 @@ const LifeUpdate = () => {
           transition={{ duration: 1 }}
           viewport={{ once: false }}
           className="text-base leading-relaxed mt-2
-                    md:text-xl text-justify">
+                    md:text-xl text-justify font-extralight">
           When I’m not coding, I’m usually either playing cricket, vibing to music, or just reflecting
           on my personal growth and the challenges ahead. I try to balance my time between learning
           new things and having fun along the way!
@@ -73,7 +74,7 @@ const LifeUpdate = () => {
         <div className="relative w-[400px] h-[250px]
           md:w-[1000px] md:h-[700px]">
           <Image
-            className='rounded-xl'
+            className='rounded-sm'
             src='/c.jpg'
             alt='life update'
             layout='fill'

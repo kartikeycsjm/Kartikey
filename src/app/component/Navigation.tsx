@@ -12,8 +12,9 @@ const Navigation = () => {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className='font-light text-[12px]
-            text-sm bg-[#2a3439]
+                className='font-light
+                shadow-2xl text-[12px]
+            text-sm bg-[#2f4f4fbe]
             flex gap-3 md:gap-16 p-2 mt-2
             rounded-[100px] md:text-xl w-[85%]
             md:w-[700px]
@@ -40,12 +41,14 @@ const Navigation = () => {
                     Projects
                 </Link>
                 <Link
-                    className='bg-[rgb(98,85,154)] px-3 py-1 
+                    className='px-3 py-1 
                     rounded-full
-                  hover:text-green-400
-                  hover:bg-[rgb(78,65,134)]
+                    shadow-2xl
+                  
+                  bg-[#14b8a6]
+                    hover:bg-[#0d9488]
                     duration-300'
-                    href={'https://kartikeymishra1.vercel.app/contact'}>
+                    href={'./#contact'}>
                     Get in touch
                 </Link>
             </motion.div>
