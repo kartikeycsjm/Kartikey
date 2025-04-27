@@ -35,7 +35,7 @@ const Navigation = () => {
                 duration-300 '>
                     Insights
                 </Link>
-                <Link href={'https://kartikeymishra1.vercel.app/projects'}
+                <Link href={'/projects'}
                     className='hover:text-green-400
                 duration-300'>
                     Projects

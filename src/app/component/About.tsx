@@ -24,7 +24,8 @@ const About = () => {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                     viewport={{ once: false }}
-                    className="text-2xl md:text-3xl font-bold mb-4"
+                    className="text-2xl md:text-3xl 
+                    font-bold mb-4"
                 >
                     About Me
                 </motion.h2>

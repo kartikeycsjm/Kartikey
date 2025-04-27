@@ -9,7 +9,7 @@ const Header = () => {
         relative
         flex items-center 
         justify-center bg-[#1a2238] 
-        rounded-b-[50px]
+        rounded-b-[50px] shadow-2xl
         ">
             {
             /* <video
