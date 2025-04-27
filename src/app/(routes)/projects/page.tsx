@@ -1,5 +1,4 @@
 'use client'
-// app/projects/page.jsx
 import React from 'react';
 import { motion } from "framer-motion"
 const projects = [

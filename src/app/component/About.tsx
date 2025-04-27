@@ -65,7 +65,7 @@ const About = () => {
                 className="w-full sm:w-[90%] md:w-[45%] 
         my-5 flex justify-center rounded-md p-4"
             >
-                <div className="relative w-[250px] h-[250px] 
+                <div className="relative w-[300px] h-[300px] 
         sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] 
         lg:w-[400px] lg:h-[400px]">
                     <Image
