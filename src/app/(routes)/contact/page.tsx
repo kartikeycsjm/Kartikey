@@ -24,7 +24,7 @@ const page = () => {
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
         viewport={{ once: false }}
         className="text-2xl font-bold mb-4
         w-[85%] m-auto md:w-[90%]
@@ -44,7 +44,7 @@ const page = () => {
         <motion.form
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.5 }}
           ref={formref} onSubmit={handleSubmit} className='w-[100%] 
           md:w-[50%]
           flex my-8

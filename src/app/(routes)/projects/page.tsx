@@ -61,20 +61,20 @@ export default function ProjectsPage() {
                             <motion.h2
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
-                                transition={{ duration: 1 }}
+                                transition={{ duration: 0.5 }}
                                 viewport={{ once: false }}
                                 className="text-2xl font-semibold text-white mb-4">{project.title}</motion.h2>
                             <motion.p
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 1 }}
+                                transition={{ duration: 0.5 }}
                                 viewport={{ once: false }}
                                 className="text-gray-300 mb-6">{project.description}</motion.p>
                             <div className="flex gap-4">
                                 <motion.a
                                     initial={{ opacity: 0, y: 100 }}
                                     whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 1 }}
+                                    transition={{ duration: 0.5 }}
                                     viewport={{ once: false }}
                                     href={project.liveLink}
                                     target="_blank"
@@ -86,7 +86,7 @@ export default function ProjectsPage() {
                                 <motion.a
                                     initial={{ opacity: 0, y: 100 }}
                                     whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 1 }}
+                                    transition={{ duration: 0.5 }}
                                     viewport={{ once: false }}
                                     href={project.githubLink}
                                     target="_blank"

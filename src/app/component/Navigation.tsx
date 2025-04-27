@@ -11,10 +11,10 @@ const Navigation = () => {
             <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
+                transition={{ duration: 0.5 }}
                 className='font-light
                 shadow-2xl text-[12px]
-            text-sm bg-[#2f4f4fbe]
+            text-md bg-[#2f4f4fbe]
             flex gap-3 md:gap-16 p-2 mt-2
             rounded-[100px] md:text-xl w-[85%]
             md:w-[700px]
@@ -30,7 +30,7 @@ const Navigation = () => {
                         width={70} height={70} alt='logo'>
                     </Image>
                 </Link>
-                <Link href={'https://kartikeymishra1.vercel.app/insights'}
+                <Link href={'/insights'}
                     className='hover:text-green-400
                 duration-300 '>
                     Insights

@@ -22,7 +22,7 @@ const About = () => {
                 <motion.h2
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.5 }}
                     viewport={{ once: false }}
                     className="text-2xl md:text-3xl 
                     font-bold mb-4"
@@ -32,7 +32,7 @@ const About = () => {
                 <motion.p
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.5 }}
                     viewport={{ once: false }}
                     className="text-base md:text-lg leading-relaxed text-justify font-extralight"
                 >
@@ -45,7 +45,7 @@ const About = () => {
                 <motion.p
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.5 }}
                     viewport={{ once: false }}
                     className="text-base md:text-lg leading-relaxed mt-4 text-justify font-extralight"
                 >
@@ -60,7 +60,7 @@ const About = () => {
             <motion.div
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: false }}
                 className="w-full sm:w-[90%] md:w-[45%] 
         my-5 flex justify-center rounded-md p-4"
