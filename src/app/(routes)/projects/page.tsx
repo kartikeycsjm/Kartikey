@@ -121,7 +121,7 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 const projects = [
     {
         title: 'Task Management System',
-        description: 'A full-stack web application for organizing, creating, and tracking tasks efficiently. Users can add, update, delete, and mark tasks as completed. Features include user authentication, and task categorization. Built using Next.js for the frontend, MongoDB for the database, and integrated APIs for CRUD operations, this project strengthened my skills in full-stack development, state management, and clean component design.',
+        description: 'A full-stack web application for organizing, creating, and tracking tasks efficiently.Users can add, update, delete, and mark tasks as completed.Features include user authentication, and task categorization.Built using Next.js for the frontend, MongoDB for the database, and integrated APIs for CRUD operations, this project strengthened my skills in full- stack development, state management, and clean component design.',
         liveLink: 'https://taskpro1.vercel.app/',
         githubLink: 'https://github.com/kartikeycsjm/task-manager',
         tools: ['Next.js', 'MongoDB', 'TailwindCSS', 'REST API', 'NextAuth', 'NodeMailer'],
@@ -185,7 +185,7 @@ export default function ProjectsPage() {
                             <h2 className="text-2xl font-semibold text-white group-hover:text-cyan-400 transition-colors duration-300">
                                 {project.title}
                             </h2>
-                            <p className="text-gray-300 mt-4 text-sm leading-relaxed line-clamp-5">
+                            <p className="text-gray-300 mt-4 text-sm leading-relaxed">
                                 {project.description}
                             </p>
 
