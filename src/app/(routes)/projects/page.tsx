@@ -3,6 +3,14 @@ import React from 'react';
 import { motion } from "framer-motion"
 const projects = [
     {
+        title: 'Task Management System',
+        description: 'A full-stack web application for organizing, creating, and tracking tasks efficiently. Users can add, update, delete, and mark tasks as completed. Features include user authentication, and task categorization. Built using Next.js for the frontend, MongoDB for the database, and integrated APIs for CRUD operations, this project strengthened my skills in full-stack development, state management, and clean component design.',
+        liveLink: 'https://taskpro1.vercel.app/',
+        githubLink: 'https://github.com/kartikeycsjm/task-manager',
+        tools: ['Next.js', 'MongoDB', 'TailwindCSS', 'REST API', 'Authentication'],
+    }
+    ,
+    {
         title: 'Plant Disease Detection Web App',
         description: 'An intelligent web application that allows users to upload images of plant leaves and instantly detect diseases using a trained deep learning model based on MobileNet and transfer learning techniques. Built with TensorFlow.js and Next.js, this project gave me exposure to machine learning workflows, model deployment, and handling heavy client-side computations in browsers.',
         liveLink: 'https://greenguardiank.vercel.app/',
