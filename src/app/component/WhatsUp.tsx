@@ -30,7 +30,7 @@ const LifeUpdate = () => {
         <motion.p
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5}}
+          transition={{ duration: 0.5 }}
           viewport={{ once: false }}
           className="text-base leading-relaxed 
                     md:text-xl font-extralight text-justify">
@@ -73,13 +73,7 @@ const LifeUpdate = () => {
       >
         <div className="relative w-[400px] h-[250px]
           md:w-[1000px] md:h-[700px]">
-          <Image
-            className='rounded-sm'
-            src='/c.jpg'
-            alt='life update'
-            layout='fill'
-            objectFit='cover'
-          />
+          <Image src="/c.jpg" alt="image" fill style={{ objectFit: 'cover' }} />
         </div>
       </motion.div>
     </div>
