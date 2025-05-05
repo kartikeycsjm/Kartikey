@@ -10,8 +10,9 @@ const Navigation = () => {
         text-white'>
             <motion.div
                 initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6}}
+                viewport={{ once: false }}
                 className='font-light
                 shadow-2xl text-[12px]
             text-md bg-[#2f4f4fbe]

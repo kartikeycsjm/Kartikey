@@ -30,7 +30,7 @@ const LifeUpdate = () => {
         <motion.p
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6 }}
           viewport={{ once: false }}
           className="text-base leading-relaxed 
                     md:text-xl font-extralight text-justify">
@@ -41,7 +41,7 @@ const LifeUpdate = () => {
         <motion.p
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6 }}
           viewport={{ once: false }}
           className="text-base font-extralight leading-relaxed mt-2
                     md:text-xl text-justify">
@@ -52,7 +52,7 @@ const LifeUpdate = () => {
         <motion.p
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6 }}
           viewport={{ once: false }}
           className="text-base leading-relaxed mt-2
                     md:text-xl text-justify font-extralight">
@@ -64,7 +64,7 @@ const LifeUpdate = () => {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.6}}
         viewport={{ once: false }}
         className='w-[85%] md:w-[80%]
                 md:m-20

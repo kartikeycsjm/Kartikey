@@ -36,15 +36,15 @@ const page = () => {
         <div className='md:w-[50%] w-0 hidden
         md:flex items-center justify-center relative m-12'>
           <Image src={'/contact.png'}
-            layout='fill'
-            objectFit='cover'
+            fill style={{ objectFit: 'cover' }}
             className='rounded-sm shadow-2xl'
             alt='hello'></Image>
         </div>
         <motion.form
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: false }}
           ref={formref} onSubmit={handleSubmit} className='w-[100%] 
           md:w-[50%]
           flex my-8
