@@ -117,7 +117,8 @@ const Header = () => {
                     Kartikey Mishra
                 </h1>
 
-                <p className="max-w-[600px] text-lg md:text-xl font-extralight px-3 mx-auto">
+                <p className="max-w-[600px] text-lg md:text-xl font-extralight 
+                px-3 mx-auto">
                     Engineer by degree, creator by nature, passionate teacher, and sports lover at heart.
                 </p>
 
@@ -130,7 +131,7 @@ const Header = () => {
                     </Link>
 
                     {/* Social Icons */}
-                    <div className="flex gap-4 justify-center mt-2 text-2xl">
+                    <div className="flex gap-6 justify-center mt-2 text-2xl">
                         <a href="https://github.com/kartikeycsjm"
                             target="_blank" rel="noopener noreferrer">
                             <FaGithub />
