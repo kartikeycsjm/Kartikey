@@ -16,6 +16,7 @@ const Header = () => {
         relative
         flex items-center 
         justify-center bg-[#0f172a] 
+        border-b border-[#334155]
         rounded-b-[50px] shadow-2xl
         ">
             {/* Optional video background */}
