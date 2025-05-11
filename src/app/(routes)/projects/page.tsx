@@ -10,7 +10,7 @@ const projects = [
     description: `- A robust full-stack task management system that enables users to create, assign, filter, and track tasks.
 - Includes full authentication flow with sign-up, login, and password recovery via secure email links.
 - Features advanced task filters (by status, priority, and due date), enabling seamless productivity tracking.
-- Real-time notifications powered by WebSocket and email alerts via NodeMailer to ensure team collaboration.
+- Real-time notifications powered by email alerts via NodeMailer to ensure team collaboration.
 - Built using Next.js (App Router), MongoDB, RESTful APIs, and secured with NextAuth for session handling.
 - UI crafted with TailwindCSS for a clean, responsive design across devices.
 - Demonstrates real-world use of full-stack architecture, scalable backend design, and real-time interactivity.`,
@@ -114,7 +114,7 @@ export default function ProjectsPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: false }}
-              className="bg-[#0f172a] scroll-mt-44
+              className="bg-[#0f172a] scroll-mt-40
               hover:bg-[#334155] transition-colors duration-300 rounded-2xl p-6 
               shadow-lg group border border-[#334155]"
             >
