@@ -98,7 +98,7 @@ export default function ProjectsPage() {
          text-center font-bold text-white my-10 md:my-16">
           My Projects
         </h1>
-        <div className="grid grid-cols-1 gap-10 md:gap-20 top-10">
+        <div className="grid grid-cols-1 gap-10 md:gap-20">
           {projects.map((project, index) => (
             <motion.div
               id={project.id}
@@ -107,7 +107,7 @@ export default function ProjectsPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: false }}
-              className="bg-[#0f172a] scroll-mt-24
+              className="bg-[#0f172a] scroll-mt-40
               hover:bg-[#334155] transition-colors duration-300 rounded-2xl p-6 
               shadow-lg group border border-[#334155]"
             >
