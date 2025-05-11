@@ -22,7 +22,7 @@ const About = () => {
                 <motion.h2
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 0.5 ,delay: 0.2}}
                     viewport={{ once: false }}
                     className="text-2xl md:text-5xl 
                     font-bold mb-4"

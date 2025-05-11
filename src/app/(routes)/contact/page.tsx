@@ -43,7 +43,7 @@ const page = () => {
         <motion.form
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.6 ,delay: 0.4}}
           viewport={{ once: false }}
           ref={formref} onSubmit={handleSubmit} className='w-[100%] 
           md:w-[50%]

@@ -20,7 +20,7 @@ const LifeUpdate = () => {
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: false }}
           className="text-2xl font-bold mb-4
           md:text-5xl">
