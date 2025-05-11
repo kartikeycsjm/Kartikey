@@ -28,7 +28,7 @@ const page = () => {
         viewport={{ once: false }}
         className="text-2xl font-bold mb-4
         w-[85%] m-auto md:w-[90%]
-        md:text-3xl">
+        md:text-5xl">
         Get in touch
       </motion.h2>
       <div className='w-[85%] m-auto md:w-[90%]

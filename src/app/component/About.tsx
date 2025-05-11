@@ -24,7 +24,7 @@ const About = () => {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                     viewport={{ once: false }}
-                    className="text-2xl md:text-3xl 
+                    className="text-2xl md:text-5xl 
                     font-bold mb-4"
                 >
                     About Me

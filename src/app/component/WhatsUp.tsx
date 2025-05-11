@@ -23,7 +23,7 @@ const LifeUpdate = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: false }}
           className="text-2xl font-bold mb-4
-          md:text-3xl">
+          md:text-5xl">
           What's Going on in My Life
         </motion.h2>
 
