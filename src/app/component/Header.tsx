@@ -12,12 +12,13 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Header = () => {
     return (
-        <div className="w-full h-screen 
+        <div className="w-full h-[98vh] 
         relative
         flex items-center 
+        top-2
         justify-center bg-[#0a0f1c] 
-        border-b border-[#334155]
-        rounded-b-[50px] shadow-2xl
+        border border-[#334155]
+        rounded-[50px] shadow-2xl
         ">
             {/* Optional video background */}
             {/* <video
