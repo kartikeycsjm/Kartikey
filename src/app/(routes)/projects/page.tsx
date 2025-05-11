@@ -5,6 +5,7 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
+    id: 'taskforge',
     title: 'Task Forge',
     description: `- A full-stack web application to create, update, and track tasks.
 - Includes features like sign-up/login, forgot password, and task filters (by status, priority, due date).
@@ -16,6 +17,7 @@ const projects = [
     tools: ['Next.js', 'MongoDB', 'TailwindCSS', 'REST API', 'NextAuth', 'NodeMailer'],
   },
   {
+    id: 'portfoliogen',
     title: 'PortfolioGen',
     description: `- A no-code portfolio generator that builds and deploys personal sites instantly.
 - Users fill in personal/professional info and get a live preview of their site.
@@ -27,6 +29,7 @@ const projects = [
     tools: ['Next.js', 'MongoDB', 'NextAuth', 'NodeMailer', 'TailwindCSS', 'REST API'],
   },
   {
+    id: 'libraryapi',
     title: 'Library API',
     description: `- Backend API for managing books in a library.
 - Supports create, update, delete, and advanced search (fuzzy search).
@@ -38,6 +41,7 @@ const projects = [
     tools: ['NestJS', 'MongoDB', 'Swagger', 'Fuzzy Search'],
   },
   {
+    id: 'greenguardiank',
     title: 'Plant Disease Detection Web App',
     description: `- AI-based tool to detect diseases from plant leaf images.
 - Uses a pre-trained MobileNet model via TensorFlow.js directly in the browser.
@@ -49,6 +53,7 @@ const projects = [
     tools: ['TensorFlow.js', 'TensorFlow', 'Next.js'],
   },
   {
+    id: 'formbuilder',
     title: 'Form Builder',
     description: `- A no-code tool to create and share custom forms.
 - Users can generate forms, share links, and get email notifications on responses.
@@ -60,6 +65,7 @@ const projects = [
     tools: ['Next.js', 'MongoDB', 'NodeMailer', 'TailwindCSS', 'REST API'],
   },
   {
+    id: 'diaryapp',
     title: 'Diary Application',
     description: `- Simple online diary app to write and save daily notes.
 - Entries are saved on the client side, no server required.
@@ -71,6 +77,7 @@ const projects = [
     tools: ['Next.js', 'TailwindCSS'],
   },
   {
+    id: 'kishoirdaradio',
     title: 'Kishore Da Radio',
     description: `- A music player app dedicated to Kishore Kumar’s songs.
 - Built with HTML, CSS, and JavaScript for basic media controls.
@@ -91,15 +98,16 @@ export default function ProjectsPage() {
          text-center font-bold text-white my-10 md:my-16">
           My Projects
         </h1>
-        <div className="grid grid-cols-1 gap-10">
+        <div className="grid grid-cols-1 gap-10 md:gap-20 top-10">
           {projects.map((project, index) => (
             <motion.div
+              id={project.id}
               key={index}
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: false }}
-              className="bg-[#0f172a] 
+              className="bg-[#0f172a] scroll-mt-24
               hover:bg-[#334155] transition-colors duration-300 rounded-2xl p-6 
               shadow-lg group border border-[#334155]"
             >
