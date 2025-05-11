@@ -15,7 +15,7 @@ const Header = () => {
         <div className="w-full h-screen 
         relative
         flex items-center 
-        justify-center bg-[#0f172a] 
+        justify-center bg-[#0a0f1c] 
         border-b border-[#334155]
         rounded-b-[50px] shadow-2xl
         ">

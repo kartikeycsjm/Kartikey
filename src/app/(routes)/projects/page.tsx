@@ -114,8 +114,8 @@ export default function ProjectsPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: false }}
-              className="bg-[#0f172a] scroll-mt-40
-              hover:bg-[#334155] transition-colors duration-300 rounded-2xl p-6 
+              className="bg-[#0a0f1c] scroll-mt-40
+              hover:bg-[#1a2238] transition-colors duration-300 rounded-2xl p-6 
               shadow-lg group border border-[#334155]"
             >
               <h2 className="text-2xl 

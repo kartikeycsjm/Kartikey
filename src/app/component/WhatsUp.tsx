@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const LifeUpdate = () => {
   return (
-    <div className='w-full my-5 md:my-10 min-h-screen 
+    <div className=' w-full my-5 md:my-10 min-h-screen 
             flex flex-col
             md:justify-center md:items-center
             md:min-h-[70vh]
