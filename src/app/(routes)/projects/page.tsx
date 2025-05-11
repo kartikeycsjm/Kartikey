@@ -5,7 +5,7 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
-    title: 'Task Management System',
+    title: 'Task Forge',
     description: `- A full-stack web application to create, update, and track tasks.
 - Includes features like sign-up/login, forgot password, and task filters (by status, priority, due date).
 - Real-time notifications and email alerts using NodeMailer.
@@ -33,7 +33,7 @@ const projects = [
 - Built with NestJS and MongoDB, documented using Swagger for developer ease.
 - Secure API with proper validation and auth practices.
 - Highlights backend proficiency, API design, and advanced query handling.`,
-    liveLink: 'https://your-live-link.com',
+    liveLink: 'https://library-api-edvn.onrender.com/api',
     githubLink: 'https://github.com/kartikeycsjm/library-api',
     tools: ['NestJS', 'MongoDB', 'Swagger', 'Fuzzy Search'],
   },
@@ -85,7 +85,7 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen w-full bg-[#0f172a] py-12">
+    <div className="min-h-screen w-full py-12">
       <div className="w-[90%] mx-auto">
         <h1 className="text-3xl md:text-5xl
          text-center font-bold text-white my-10 md:my-16">
@@ -99,8 +99,9 @@ export default function ProjectsPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: false }}
-              className="bg-[#1e293b] 
-              hover:bg-[#334155] transition-colors duration-300 rounded-2xl p-6 shadow-lg group border border-[#334155]"
+              className="bg-[#0f172a] 
+              hover:bg-[#334155] transition-colors duration-300 rounded-2xl p-6 
+              shadow-lg group border border-[#334155]"
             >
               <h2 className="text-2xl 
               font-semibold text-white 

@@ -15,7 +15,7 @@ const Header = () => {
         <div className="w-full h-screen 
         relative
         flex items-center 
-        justify-center bg-[#1a2238] 
+        justify-center bg-[#0f172a] 
         rounded-b-[50px] shadow-2xl
         ">
             {/* Optional video background */}
@@ -71,7 +71,7 @@ const Header = () => {
                             target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn />
                         </a>
-                        <a href="https://taskpro1.vercel.app/"
+                        <a href="https://taskforge2nd.vercel.app/"
                             target="_blank" rel="noopener noreferrer">
                             <FaExternalLinkAlt />
                         </a>
